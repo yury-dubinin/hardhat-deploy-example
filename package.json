@@ -1,0 +1,20 @@
+{
+  "name": "hardhat-deploy-example",
+  "version": "1.0.0",
+  "description": "Basic usage of Hardhat contract deployment and value change",
+  "scripts": {
+    "deploy": "hardhat run scripts/deploy.js --network hardhat",
+    "deploy-kovan": "hardhat run scripts/deploy.js --network kovan"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "ethers": "^5.6.8",
+    "hardhat": "^2.9.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
