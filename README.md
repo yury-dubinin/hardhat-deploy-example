@@ -1,7 +1,7 @@
 # hardhat-deploy-example
 Basic usage of Hardhat contract deployment and value change 
 
-to instal the project
+to install the project
 - npm i
 
 to make bash script executable
@@ -12,7 +12,7 @@ to run hh deployment
 
 to run with bash
 - ./deploy.sh hardhat
-- ./deploy.sh kovan
+- ./deploy.sh goerli
 
 to build image
 - docker build -f ./Dockerfile . -t chainlink/test:0.0.1

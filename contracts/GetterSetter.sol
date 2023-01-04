@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.7;
+pragma solidity 0.8.9;
 
 // GetterSetter is a contract to aid debugging and testing during development.
 contract GetterSetter {
